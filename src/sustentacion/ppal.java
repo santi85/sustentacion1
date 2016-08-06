@@ -125,8 +125,8 @@ public class ppal {
         for (int i = 0; i < suma; i++){
             System.out.println("Producto: " + i);
             System.out.println("Nombre: " + arreglo[i].getNombre());
-            System.out.println("Cantidad vendidas: " + cantventas[i]);
-            System.out.println("Total ganancia: "+total[i]);
+            System.out.println("Cantidad vendidas: " + cantventas[i]+" Unidades");
+            System.out.println("Total ganancia: "+total[i]+" $");
         }
 
     }
