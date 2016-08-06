@@ -30,7 +30,7 @@ public class ppal {
         }
 
         do {
-            System.err.println("       ¡ MENU !");
+            System.out.println("       ¡ MENU !");
             System.out.println(" 1. Agregar producto \n 2. Buscar producto \n 3. Eliminar producto \n 4. Mostrar inventario \n 5. Realizar venta \n 6. Mostrar ganancias totales \n 7. salir");
             System.out.println("Ingrese la operacion a relaizar del menu:");
             opc = lector.nextInt();
@@ -94,7 +94,7 @@ public class ppal {
             }
         }
         if (f == 0) {
-            System.err.println("Error el producto no existe");
+            System.out.println("Error el producto no existe");
         }
     }
 
@@ -117,7 +117,7 @@ public class ppal {
             }
         }
         if (f == 0) {
-            System.err.println("Error el producto no existe");
+            System.out.println("Error el producto no existe");
         }
     }
 
